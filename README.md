@@ -1,7 +1,6 @@
 # vault-to-xml
 python script that brings your passwords from Hashicorp vault and pushes 
-them to 
-'server.xml' of your web-services.  
+them to 'server.xml' of your web-services.  
 As a piece of our effort to automate the flow on the admin side, or 
 rather more like a touchless architechture, we have decided to use a 
 "Vault" to
@@ -46,10 +45,11 @@ if you are on linux-----
 export VAULT_CONFIG="yourfilelocation"
 
 -------------------------------------------------------------------------
-Also works with json, just change the "config_yml" everywhere to 
-"config_json"
+
+Also works with json, just change the "config_yml" everywhere to "config_json"
 
 -------------------------------------EOF---------------------------------
+
 He who writes the code,alone knows how to use it.
 
 He who documents it, lets anyone yield from  it.
