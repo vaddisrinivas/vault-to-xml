@@ -27,8 +27,10 @@ created by using "Version 1".
 ----------------------------organisation of project----------------------
 
 |- setup.py ------------- installs the dependencies----------------------
+
 |- run.py  -------once, if your config file is set properly, just run 
 this
+
 |-vault_config.yml---------replace the values here and, thats all it 
 takes--NEW
 
