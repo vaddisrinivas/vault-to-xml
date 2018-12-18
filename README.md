@@ -23,14 +23,12 @@ flawed/inoperable. Hence, this code works for any secrets engine that was
 created by using "Version 1".
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\
+
 ----------------------------organisation of project----------------------
--------
 
 |- setup.py ------------- installs the dependencies----------------------
--------
 |- run.py  -------once, if your config file is set properly, just run 
-this------
+this
 |-vault_config.yml---------replace the values here and, thats all it 
 takes--NEW
 
@@ -38,7 +36,6 @@ You can add it to any of the cron jobs, so that it polls HashiCorp Vault
 and
                             gets things for you. 
 --------------------------------How to use this--------------------------
--------
 First run "python setup.py install"
 
 now, 
@@ -47,13 +44,10 @@ Set  your environment variables , VAULT_CONFIG
   if you are on linux-----
   export VAULT_CONFIG="yourfilelocation"
 -------------------------------------------------------------------------
--------
-
 Also works with json, just change the "config_yml" everywhere to 
 "config_json"
 
 -------------------------------------EOF---------------------------------
--------
 
 He who writes the code,alone knows how to use it.
 He who documents it, lets anyone yield from  it.
