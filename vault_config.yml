@@ -1,0 +1,26 @@
+---
+default:
+  url: your.vault.url
+  token: vault_token
+  log_file_path: path/to/log
+changes:
+#you can copy paste it n times for n changes in n places
+- file_path: path/for/write/to/xml
+  path: parent_folder_in_hasicorp_vault/
+  name_of_secret: name_of_subfolder_invault
+  parenting: _ignore_top_parent_as_it_is_root/till_your_element_to_change
+  #given a scenario with multiple tags of same type but different names
+  name_of_tag: name_of_tag_on_which_write_is_happening
+  #add to this list if you have more parameters
+  attribute_mapping: {username : username, password: password}
+  #attributemaping {name_in_xml: name_in_vault}
+
+- file_path: path/for/write/to/xml
+  path: parent_folder_in_hasicorp_vault/
+  name_of_secret: name_of_subfolder_invault
+  parenting: _ignore_top_parent_as_it_is_root/till_your_element_to_change
+  #given a scenario with multiple tags of same type but different names
+  name_of_tag: name_of_tag_on_which_write_is_happening
+  #add to this list if you have more parameters
+  attribute_mapping: {username : username, password: password}
+  #attributemaping {name_in_xml: name_in_vault}
