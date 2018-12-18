@@ -40,16 +40,16 @@ and
 --------------------------------How to use this--------------------------
 First run "python setup.py install"
 
-now, 
-
 Set  your environment variables , VAULT_CONFIG 
   if you are on linux-----
   export VAULT_CONFIG="yourfilelocation"
+
 -------------------------------------------------------------------------
 Also works with json, just change the "config_yml" everywhere to 
 "config_json"
 
 -------------------------------------EOF---------------------------------
-
 He who writes the code,alone knows how to use it.
 He who documents it, lets anyone yield from  it.
+
+-------------------------------------------------------------------------
